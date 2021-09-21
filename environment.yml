@@ -6,7 +6,6 @@ channels:
 dependencies:
   - pandas
   - numpy
-  - zlib
   - zstd
   - libxml2
   - flask
