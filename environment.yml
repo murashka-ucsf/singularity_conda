@@ -5,7 +5,6 @@ channels:
   - defaults
 dependencies:
   - pandas
-  - zstd
-  - libxml2
+  - matplotlib
   - flask
 prefix: /home/user/miniconda3/envs/test01
