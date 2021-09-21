@@ -1,0 +1,13 @@
+name: test01
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - pandas
+  - numpy
+  - zlib
+  - zstd
+  - libxml2
+  - flask
+prefix: /home/user/miniconda3/envs/test01
