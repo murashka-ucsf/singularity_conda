@@ -541,7 +541,12 @@ total 760036
 -rwxr-xr-x. 1 murashka wynton-admins 896438272 Sep 21 16:46 test.sif
 ```
 
+---
 
+```sh
+(env1) [murashka@dev3 test]$ conda deactivate
+[murashka@dev3 test]$
+```
 
 ```sh
 (env1) [murashka@dev3 test]$ singularity shell ./test.sif
