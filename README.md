@@ -707,3 +707,16 @@ and if you run the myscript.py, all it's should work:
 Singularity> python ./myscript.py
 modules imported: ['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'flask', 'matplotlib', 'pandas']
 ```
+
+- You can execute the Python script using the Python environment in the container
+```sh
+(base) [murashka@dev3 conda2]$ ./test.sif python /code/myscript.py
+modules imported: ['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'flask', 'matplotlib', 'pandas']
+```
+
+---
+
+TODO:
+
+fix the runscript so it automatically executes the script when executing the container
+
