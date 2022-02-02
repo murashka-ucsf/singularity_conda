@@ -189,6 +189,7 @@ modules imported: ['__annotations__', '__builtins__', '__cached__', '__doc__', '
 (env1) [murashka@dev3 test1]$ conda env export > environment.yml
 ```
 
+```sh
 (env1) [murashka@dev3 test1]$ cat environment.yml
 name: env1
 channels:
@@ -275,6 +276,7 @@ dependencies:
   - zlib=1.2.11=h7b6447c_3
   - zstd=1.4.9=haebb681_0
 prefix: /wynton/home/admins/murashka/miniconda3/envs/env1
+```
 
 ---
 
